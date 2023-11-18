@@ -1,0 +1,49 @@
+name: basic_flutter
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - images/433-800x600.jpg
+    - images/564-800x600.jpg
+    - images/219-800x600.jpg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  fonts:
+    - family: Tajawal
+      fonts:
+        - asset: fonts/Tajawal-Light.ttf
+          weight: 300
+        - asset: fonts/Tajawal-Regular.ttf
+          weight: 400
+        - asset: fonts/Tajawal-Bold.ttf
+          weight: 700
+   
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
